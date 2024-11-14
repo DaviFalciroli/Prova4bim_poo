@@ -12,14 +12,14 @@ public class Main {
             pessoa1.tirarNota("Muito bom!");
 
 
-            PessoaTrabalhadoraEstudante pessoa2 = new PessoaTrabalhadoraEstudante("Jo", 30, 4000.0); // Nome inválido
+            PessoaTrabalhadoraEstudante pessoa2 = new PessoaTrabalhadoraEstudante("Jo", 30, 4000.0); 
         } catch (IllegalArgumentException e) {
             System.out.println("Erro: " + e.getMessage());
         }
 
         try {
 
-            PessoaTrabalhadoraEstudante pessoa3 = new PessoaTrabalhadoraEstudante("Maria", -5, 5000.0); // Idade inválida
+            PessoaTrabalhadoraEstudante pessoa3 = new PessoaTrabalhadoraEstudante("Maria", -5, 5000.0); 
         } catch (IllegalArgumentException e) {
             System.out.println("Erro: " + e.getMessage());
         }
