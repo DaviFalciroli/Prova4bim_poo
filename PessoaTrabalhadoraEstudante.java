@@ -5,7 +5,7 @@ public class PessoaTrabalhadoraEstudante extends Pessoa implements Trabalhador, 
 
 
     public PessoaTrabalhadoraEstudante(String nome, int idade, double salario) {
-        super(nome, idade);  // Chama o construtor da classe Pessoa
+        super(nome, idade);  
         this.salario = salario;
     }
 
