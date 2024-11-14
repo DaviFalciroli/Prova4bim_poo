@@ -2,7 +2,7 @@ public abstract class Pessoa {
     private String nome;
     private int idade;
 
-    // Construtor
+    
     public Pessoa(String nome, int idade) {
         setNome(nome);
         setIdade(idade);
